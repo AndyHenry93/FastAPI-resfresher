@@ -28,10 +28,6 @@ repos:
     hooks:
       - id: mypy
         args: ["--ignore-missing-imports"]
-  - repo: https://github.com/pycqa/pydocstyle
-    rev: 6.3.0
-    hooks:
-      - id: pydocstyle
   - repo: https://github.com/codespell-project/codespell
     rev: v2.3.0
     hooks:
