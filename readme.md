@@ -18,14 +18,14 @@ FastAPI is a modern, high-performance web framework for building APIs with Pytho
 1. Install poetry globally
 
     ```bash
-        python3 -m pip install --user pipx
-        pipx ensurepath
-        pipx install poetry
+    python3 -m pip install --user pipx
+    pipx ensurepath
+    pipx install poetry
     ```
 2. Install dependencies:
 
     ```bash
-        poetry install
+    poetry install
     ```
 3. Run the dev server:
 
