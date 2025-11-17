@@ -36,5 +36,3 @@ FastAPI is a modern, high-performance web framework for building APIs with Pytho
 ## Resources
 - FastAPI docs: https://fastapi.tiangolo.com
 - Pydantic docs: https://pydantic-docs.helpmanual.io
-
-Keep examples small and focused; use this repo as a quick reference when you need a FastAPI refresher.
