@@ -3,9 +3,7 @@ from fastapi import FastAPI
 app = FastAPI()
 
 
-app.get("/")
-
-
+@app.get("/")
 def read_root() -> dict[str, str]:
     """
     Return a simple greeting payload for the API root endpoint.
