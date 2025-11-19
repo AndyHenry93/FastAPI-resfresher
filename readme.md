@@ -37,3 +37,4 @@ FastAPI is a modern, high-performance web framework for building APIs with Pytho
 - Poetry docs: https://python-poetry.org/
 - FastAPI docs: https://fastapi.tiangolo.com
 - Pydantic docs: https://pydantic-docs.helpmanual.io
+- sqlalchemy: https://www.sqlalchemy.org/
