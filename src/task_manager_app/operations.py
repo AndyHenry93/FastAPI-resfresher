@@ -6,6 +6,7 @@ from typing import Optional
 
 from .models import Task
 from .models import TaskResponse
+from .models import TaskV2Response
 from .utils import columns
 from .utils import database_name
 from .utils import get_next_id
@@ -18,6 +19,14 @@ def read_all_task() -> List[TaskResponse]:
             csv_file,
         )
         return [TaskResponse(**row) for row in reader]
+
+
+def read_all_task_v2() -> List[TaskV2Response]:
+    with open(database_name()) as csv_file:
+        reader = csv.DictReader(
+            csv_file,
+        )
+        return [TaskV2Response(**row) for row in reader]
 
 
 def read_task(task_id: int) -> Optional[TaskResponse]:

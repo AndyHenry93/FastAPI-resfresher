@@ -1,4 +1,4 @@
-import router_example as router_example
+import intro.router_example as router_example
 from fastapi import FastAPI
 
 app = FastAPI()
