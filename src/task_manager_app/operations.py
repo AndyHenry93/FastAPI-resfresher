@@ -62,9 +62,7 @@ def update_task(task_id: int, task_data: Task) -> Optional[TaskResponse]:
         for task in all_tasks:
             writer.writerow(task.model_dump())
 
-    if updated_task:
-        return updated_task
-    return None
+    return updated_task
 
 
 def remove_task(task_id: int) -> Optional[Dict[str, Any]]:
